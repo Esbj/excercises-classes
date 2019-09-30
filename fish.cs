@@ -2,9 +2,9 @@ using System;
 namespace excercises_classes{
     public class Fish
     {
-        string name;
-        string race;
-        int age;
+        public string name;
+        public string race;
+        public int age;
         public static void Trick(){
             Console.WriteLine("...");
         }

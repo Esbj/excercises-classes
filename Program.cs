@@ -6,6 +6,8 @@ namespace excercises_classes
     {
         static void Main(string[] args)
         {
+            Fish MinFisk = new Fish();
+            MinFisk.name = "Göte";
             Fish.Trick();
         }
     }
