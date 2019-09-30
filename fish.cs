@@ -2,7 +2,9 @@ using System;
 namespace excercises_classes{
     public class Fish
     {
-
+        public Fish(){
+            age = 0;
+        }
 
         private string Name = "";
         public string name{
@@ -13,8 +15,8 @@ namespace excercises_classes{
                 Name = value;
             }
         }
-        public string race;
         public int age;
+        public string race;
         public static void Trick(){
             Console.WriteLine("...");
         }

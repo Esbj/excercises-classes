@@ -13,10 +13,3 @@ egenskaperna i ett testobjekt.
 
 Skapa en konstruktor till din djur-klass som tar emot värden för namn, ålder, ras eller vad du nu skapat för variabler. Använd konstruktorn
 i ett testobjekt.
-
-## Övning 2 - fortsättning på övning 6
-
-Du ska nu arbeta vidare på övnng 6. Nu ska det inte vara bestämt i programmet vilka städer som finns eller hur många. Användaren ska själv 
-via en meny kunna välja eller lägga till en stad. När användaren lägger till en stad får hen ange namn på staden och temperaturen. Via 
-menyn kan man sedan kontrollera temperatur för alla städer, medeltemperaturen samt var det är varmast och var det är kallast. Programmet ska 
-vara kodat för att hantera undantag, så om användaren skriver i något oväntat ska programmet hantera detta.
