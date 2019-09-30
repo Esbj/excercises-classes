@@ -9,6 +9,7 @@ namespace excercises_classes
             Fish MinFisk = new Fish();
             MinFisk.name = "Göte";
             Fish.Trick();
+            Console.WriteLine(MinFisk.name);
         }
     }
 }

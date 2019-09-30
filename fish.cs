@@ -2,7 +2,17 @@ using System;
 namespace excercises_classes{
     public class Fish
     {
-        public string name;
+
+
+        private string Name = "";
+        public string name{
+            get{
+                return Name;
+            }
+            set{
+                Name = value;
+            }
+        }
         public string race;
         public int age;
         public static void Trick(){
